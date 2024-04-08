@@ -34,7 +34,7 @@ function checkLocalStorageForKeys(key) {
       localStorage.removeItem(key);
     } else {
       alert('Please fill in both input fields.');
-      form.reset();
+      
       localStorage.removeItem(key);
     }
   }
